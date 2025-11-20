@@ -1,0 +1,2 @@
+# WhirlRecon
+Bugbounty recon script.
