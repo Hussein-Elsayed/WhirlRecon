@@ -69,8 +69,11 @@ Run the script, passing the target file as an argument:
    ```bash
    ./whirlrecon.sh targets.txt
 
-📂 Output Structure
-The script creates a results/ directory in the root of the repository, and inside that, a dedicated folder for every domain scanned:
+### 📂 Output Structure
+
+The script creates a `results/` directory in the root of the repository, and inside that, a dedicated folder for every domain scanned:
+
+```text
 results/
 ├── [target.com/](https://target.com/)
 │   ├── subdomains.txt       # Final list of in-scope subdomains
@@ -80,7 +83,8 @@ results/
 │   └── nuclei_results.txt   # Vulnerabilities found by Nuclei
 └── [another-target.com/](https://another-target.com/)
     └── ...
-    
+```
+
 ⚠️ Disclaimer
 This tool is for educational purposes and authorized security testing only. Do not use this tool on targets you do not have explicit permission to test. The author is not responsible for any misuse.
 
